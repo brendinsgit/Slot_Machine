@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #feefaa;
+    /* position: relative; */
+    min-height: 100vh;
+}
+
+h1 {
+    display: flex;
+    position: absolute;
+    font-size: 50px;
+    right: 35%;
+    top: 50px;
+    text-decoration: underline;    
+}
+
+.arrow-link {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 1;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.2s;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.arrow-link:hover {
+    transform: translateX(-5px);
+}
