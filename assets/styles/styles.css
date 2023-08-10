@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: url(/assets/images/krystal-ng-O07o2Cd_vX0-unsplash.jpg);
+    background-image: url(/assets/images/jungle_background_pixel.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,9 +13,12 @@ body {
 
 #title {
   color: #fff;
-  font-size: 80px;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 7vmin;
   -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #1c8645;
+  -webkit-text-stroke-color: #1c8645;
+  text-align: center;
+  width: 100%;
 }
 
 #container {
@@ -23,6 +26,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+#container h1 {
+  font-size: 5vmin;
 }
 
 #container img {
@@ -38,6 +45,7 @@ body {
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P', sans-serif;
     background: #111;
     cursor: pointer;
     position: relative;

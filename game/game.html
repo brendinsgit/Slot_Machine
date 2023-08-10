@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/game/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Survival of the Fittest</title>
 </head>
 <body>
+    <a href="/help/help.html">
+    <button id="alt-chatbox" class="button-54" role="button">Need Help?</button>
+    </a>
     <div class="money-container">
         <a href="/help/help.html">
         <img id="chatbox" src="/assets/images/istockphoto-1213154438-612x612.jpg" alt="chatbox">
@@ -17,6 +23,11 @@
         <div class="banana-circle">
             <img src="/assets/images/banana.png" alt="Banana">
         </div>
+    </div>
+    <div class="congratulations-box hidden">
+        <h2 class="blackBox">Congratulations!</h2>
+        <p class="blackBox">You redeem your bananas. Mr. Gorilla would like to have a word with you.</p>
+        <button class="play-again-button">Play Again</button>
     </div>
 
     <div class="slots-container">
@@ -38,8 +49,8 @@
     </div>
     <footer id="footer-container">
        <button id="spin">Spin!</button>
-       <div id="bet-won">
-            <span class="bet-won">Bet: 0 <br> Won: 0</span>
+       <div id="goal">
+            <span class="goal">Bananas Needed: 150</span>
        </div>
     </footer>
     <script src="/game/game.js"></script>
