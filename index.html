@@ -3,26 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/game/game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Survival of the Fittest</title>
 </head>
 <body>
-    <div id="container">
-        <h1 id="title">Survival of the Fittest!</h1>
-        <img src="./assets/images/funny-monkeys.jpg" alt="Monkey Photo">
-        <a href="./game/game.html">
-        <button class="enter" role="button">
-            --Enter the Jungle--
-          </button>
+    <a href="/help/help.html">
+    <button id="alt-chatbox" class="button-54" role="button">Need Help?</button>
+    </a>
+    <div class="money-container">
+        <a href="/help/help.html">
+        <img id="chatbox" src="/assets/images/istockphoto-1213154438-612x612.jpg" alt="chatbox">
         </a>
+        <div class="money-rectangle">
+            0
+        </div>
+        <div class="banana-circle">
+            <img src="/assets/images/banana.png" alt="Banana">
+        </div>
     </div>
-    <audio id="background-audio" class="background-audio" autoplay="autoplay">
-        <source type="audio/mpeg"  src="http://127.0.0.1:5500/assets/audio/oh-monkey.wav">
-    </audio>
-    <script src="assets/scripts/script.js"></script>
+    <div class="congratulations-box hidden">
+        <h2 class="blackBox">Congratulations!</h2>
+        <p class="blackBox">You redeem your bananas. Mr. Gorilla would like to have a word with you.</p>
+        <button class="play-again-button">Play Again</button>
+        <button class="funny-button">Level 2</button>
+        <button class="level-two-button">Not Level 2</button>
+    </div>
+    <div class="level-two-box hidden">
+        <h2 class="blackBox">Congratulations!</h2>
+        <p class="blackBox">You really need to get a life.</p>
+        <button class="play-again-button">Play Again</button>
+    </div>
 
+    <div class="slots-container">
+        <div class="slot">
+            <img class="slot1" src="" alt="Icon 1">
+            <img class="slot2" src="" alt="Icon 2">
+            <img class="slot3" src="" alt="Icon 3">
+        </div>
+        <div class="slot">
+            <img class="slot4" src="" alt="Icon 4">
+            <img class="slot5" src="" alt="Icon 5">
+            <img class="slot6" src="" alt="Icon 6">
+        </div>
+        <div class="slot">
+            <img class="slot7" src="" alt="Icon 7">
+            <img class="slot8" src="" alt="Icon 8">
+            <img class="slot9" src="" alt="Icon 9">
+        </div>
+    </div>
+    <footer id="footer-container">
+       <button id="spin">Spin!</button>
+       <div id="goal">
+            <span class="goal">Bananas Needed: 150</span>
+       </div>
+    </footer>
+    <audio id="background-audio" class="background-audio" autoplay="autoplay" loop="loop">
+        <source type="audio/mpeg"  src="/assets/audio/425771__airborne80__casino-background-sounds.mp3">
+    </audio>
+    <audio id="correct-audio">
+        <source type="audio/mpeg" src="/assets/audio/sound-correct.wav">
+    </audio>
+    <audio id="level-two-audio" loop="loop">
+        <source type="audio/mpeg" src="/assets/audio/Video Games Themes - STREET FIGHTER 2 - Guile Theme200196-4949a521-eddd-45db-9aff-45ed6b11d6d3.mp3">
+    </audio>
+    <audio id="funny-audio">
+        <source type="audio/mpeg" src="/assets/audio/578907__happyflappyguy__rick-roll-but-mad.wav">
+    </audio>
+    <audio id="slot-audio">
+        <source type="audio/mpeg" src="/assets/audio/SlotSpinmachine-phrygian.mp3">
+    </audio>
+    <audio id="oh-monkey">
+        <source type="audio/mpeg" src="/assets/audio/oh-monkey.wav">
+    </audio>
+    <script src="/game/game.js"></script>
 </body>
 </html>
