@@ -87,6 +87,10 @@ h2 {
     width: 50vw;
 }
 
+#right-arrow {
+    border: 1px solid black;
+}
+
 @media (max-width: 1078px) {
     body {
         justify-content: flex-start;
