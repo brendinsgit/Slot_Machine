@@ -13,6 +13,9 @@ const correctAudio = document.querySelector('#correct-audio');
 const levelTwoButton = document.querySelector('.level-two-button');
 const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
+const chatbox = document.getElementById('chatbox');
+const popupContainer = document.getElementById('popup-container');
+const closePopup = document.getElementById('close-popup')
 let levelOne = true;
 let levelTwo = true;
 
@@ -29,6 +32,8 @@ let levelTwo = true;
     let interval = null;
     let currentImages = [];
     let bananaGoal = 100;
+
+    
 
   function playSlotSound() {
     audio.currentTime = 0;
