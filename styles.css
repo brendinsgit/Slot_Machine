@@ -12,13 +12,6 @@ body {
   display: none;
 }
 
-img#chatbox {
-  transform: scale(0.2);
-  position: absolute;
-  border-radius: 20%;
-  translate: 1300px -300px;
-}
-
 #winning-combinations {
   position: fixed;
   bottom: 4vmin;
@@ -342,15 +335,6 @@ max-width: 320px;
 body {
   height: 100vh;
   width: 100vw;
-}
-
-#alt-chatbox {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  top: 4vmin;
-  right: 8vmin;
-  height: 8vmin;
 }
 
   
