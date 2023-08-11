@@ -17,8 +17,8 @@ Survival of the Fittest is a game about hitting the slots until you've earned en
 As a user...
 
 - I want a description of how to play and the amount of money received for vaious winning combinations
-- I want satisfying audio so that I feel more immersed
-- I want to press three 'stop' buttons so that I can 'determine' the outcomes
+- I want audio so that I feel more immersed
+- I want to press a stop button so that I can 'determine' the outcomes
 - I want to start with cash and see the current amount displayed on the screen
 - I want to see the amount of money required to make a spin
 - I want to see the amount of money I get from the most recent spin

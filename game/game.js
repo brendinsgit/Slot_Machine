@@ -14,7 +14,7 @@ const levelTwoButton = document.querySelector('.level-two-button');
 const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
 let levelOne = true;
-let levelTwo = false;
+let levelTwo = true;
 
 
 (function () {
@@ -28,7 +28,7 @@ let levelTwo = false;
     let isSpinning = false;
     let interval = null;
     let currentImages = [];
-    let bananaGoal = 10;
+    let bananaGoal = 100;
 
   function playSlotSound() {
     audio.currentTime = 0;
@@ -66,12 +66,11 @@ let levelTwo = false;
   playAgainButton.addEventListener('click', function() {
     if (!levelTwo) {
       congratulationsBox.classList.add('hidden');
-    } else {
-      !levelTwo;
+      levelTwoBox.classList.add('hidden');
     }
+    levelTwoBox.classList.add('hidden');
     spinButton.disabled = false;
     money.textContent = 0;
-    bananaGoal = levelTwo ? 300 : 150;
     updateGoal();
   });
 
@@ -81,7 +80,7 @@ let levelTwo = false;
     levelOne = false;
     spinButton.disabled = false;
     money.textContent = 0;
-    bananaGoal = 10;
+    bananaGoal = 250;
     audio.pause();
     levelTwoAudio.play();
     levelTwoAudio.volume = 0.2;
