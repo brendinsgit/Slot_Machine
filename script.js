@@ -124,80 +124,80 @@ let levelTwo = false;
     let bottomImages = [currentImages[2], currentImages[5], currentImages[8]];
 
     if (topImages[0] === topImages[1] && topImages[0] === topImages[2]) {
-      if(topImages[0] == window.location.origin + './assets/images/gorilla.png') {
+      if(topImages[0] == './assets/images/gorilla.png') {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(topImages[0] == window.location.origin + './assets/images/sloth.png') {
+      if(topImages[0] == './assets/images/sloth.png') {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(topImages[0] == window.location.origin + './assets/images/elephant.png') {
+      if(topImages[0] == './assets/images/elephant.png') {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(topImages[0] == window.location.origin + './assets/images/badger.png') {
+      if(topImages[0] == './assets/images/badger.png') {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
       correctAudio.volume = 0.2;
     } 
     if (centerImages[0] === centerImages[1] && centerImages[0] === centerImages[2]) {
-      if(centerImages[0] == window.location.origin + './assets/images/gorilla.png') {
+      if(centerImages[0] == './assets/images/gorilla.png') {
         money.textContent = Number(money.textContent) + 250;
       }
-      if(centerImages[0] == window.location.origin + './assets/images/sloth.png') {
+      if(centerImages[0] == './assets/images/sloth.png') {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(centerImages[0] == window.location.origin + './assets/images/elephant.png') {
+      if(centerImages[0] == './assets/images/elephant.png') {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(centerImages[0] == window.location.origin + './assets/images/badger.png') {
+      if(centerImages[0] == './assets/images/badger.png') {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
       correctAudio.volume = 0.2;
     } 
     if (bottomImages[0] === bottomImages[1] && bottomImages[0] === bottomImages[2]) {
-      if(bottomImages[0] == window.location.origin + './assets/images/gorilla.png') {
+      if(bottomImages[0] == './assets/images/gorilla.png') {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(bottomImages[0] == window.location.origin + './assets/images/sloth.png') {
+      if(bottomImages[0] == './assets/images/sloth.png') {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(bottomImages[0] == window.location.origin + './assets/images/elephant.png') {
+      if(bottomImages[0] == './assets/images/elephant.png') {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(bottomImages[0] == window.location.origin + './assets/images/badger.png') {
+      if(bottomImages[0] == './assets/images/badger.png') {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
       correctAudio.volume = 0.2;
     }
     if (currentImages[0] === currentImages[4] && currentImages[0] === currentImages[8]) {
-      if(currentImages[0] == window.location.origin + './assets/images/gorilla.png') {
+      if(currentImages[0] == './assets/images/gorilla.png') {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(currentImages[0] == window.location.origin + './assets/images/sloth.png') {
+      if(currentImages[0] == './assets/images/sloth.png') {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(currentImages[0] == window.location.origin + './assets/images/elephant.png') {
+      if(currentImages[0] == './assets/images/elephant.png') {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(currentImages[0] == window.location.origin + './assets/images/badger.png') {
+      if(currentImages[0] == './assets/images/badger.png') {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
       correctAudio.volume = 0.2;
     }
     if (currentImages[6] === currentImages[4] && currentImages[6] === currentImages[2]) {
-      if(currentImages[6] == window.location.origin + './assets/images/gorilla.png') {
+      if(currentImages[6] == './assets/images/gorilla.png') {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(currentImages[6] == window.location.origin + './assets/images/sloth.png') {
+      if(currentImages[6] == './assets/images/sloth.png') {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(currentImages[6] == window.location.origin + './assets/images/elephant.png') {
+      if(currentImages[6] == './assets/images/elephant.png') {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(currentImages[6] == window.location.origin + './assets/images/badger.png') {
+      if(currentImages[6] == './assets/images/badger.png') {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
