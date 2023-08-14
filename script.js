@@ -14,13 +14,15 @@ const levelTwoButton = document.querySelector('.level-two-button');
 const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
 const gorillaEl = document.createElement('img');
+const slothEl = document.createElement('img');
+const elephantEl = document.createElement('img');
+const badgerEl = document.createElement('img');
 gorillaEl.src = 'assets/images/gorilla.png';
 slothEl.src = 'assets/images/sloth.png';
 elephantEl.src = 'assets/images/elephant.png';
 badgerEl.src = 'assets/images/badger.png';
 let levelOne = true;
 let levelTwo = false;
-
 
 (function () {
     let animals = [
