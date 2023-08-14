@@ -14,7 +14,7 @@ const levelTwoButton = document.querySelector('.level-two-button');
 const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
 const gorillaEl = document.createElement('img');
-gorillaEl.src = './assets/images/gorilla.png';
+gorillaEl.src = 'assets/images/gorilla.png';
 let levelOne = true;
 let levelTwo = false;
 
