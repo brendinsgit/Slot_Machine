@@ -19,7 +19,7 @@ let levelTwo = false;
 
 (function () {
     let animals = [
-    window.location.origin + '/assets/images/gorilla.png',
+    window.location.origin + 'assets\images\gorilla.png',
     window.location.origin + '/assets/images/sloth.png',
     window.location.origin + '/assets/images/elephant.png',
     window.location.origin + '/assets/images/badger.png'
@@ -124,7 +124,7 @@ let levelTwo = false;
     let bottomImages = [currentImages[2], currentImages[5], currentImages[8]];
 
     if (topImages[0] === topImages[1] && topImages[0] === topImages[2]) {
-      if(topImages[0] == window.location.origin + '/assets/images/gorilla.png') {
+      if(topImages[0] == window.location.origin + 'assets\images\gorilla.png') {
         money.textContent = Number(money.textContent) + 50;
       }
       if(topImages[0] == window.location.origin + '/assets/images/sloth.png') {
