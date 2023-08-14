@@ -15,6 +15,9 @@ const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
 const gorillaEl = document.createElement('img');
 gorillaEl.src = 'assets/images/gorilla.png';
+slothEl.src = 'assets/images/sloth.png';
+elephantEl.src = 'assets/images/elephant.png';
+badgerEl.src = 'assets/images/badger.png';
 let levelOne = true;
 let levelTwo = false;
 
@@ -22,9 +25,9 @@ let levelTwo = false;
 (function () {
     let animals = [
       gorillaEl.src,
-    window.location.origin + '/assets/images/sloth.png',
-    window.location.origin + '/assets/images/elephant.png',
-    window.location.origin + '/assets/images/badger.png'
+      slothEl.src,
+      elephantEl.src,
+      badgerEl.src
     ];
 
     let isSpinning = false;
@@ -129,13 +132,13 @@ let levelTwo = false;
       if(topImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(topImages[0] == window.location.origin + '/assets/images/sloth.png') {
+      if(topImages[0] == slothEl.src) {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(topImages[0] == window.location.origin + '/assets/images/elephant.png') {
+      if(topImages[0] == elephantEl.src) {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(topImages[0] == window.location.origin + '/assets/images/badger.png') {
+      if(topImages[0] == badgerEl.src) {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
@@ -145,13 +148,13 @@ let levelTwo = false;
       if(centerImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 250;
       }
-      if(centerImages[0] == window.location.origin + '/assets/images/sloth.png') {
+      if(centerImages[0] == slothEl.src) {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(centerImages[0] == window.location.origin + '/assets/images/elephant.png') {
+      if(centerImages[0] == elephantEl.src) {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(centerImages[0] == window.location.origin + '/assets/images/badger.png') {
+      if(centerImages[0] == badgerEl.src) {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
@@ -161,13 +164,13 @@ let levelTwo = false;
       if(bottomImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(bottomImages[0] == window.location.origin + '/assets/images/sloth.png') {
+      if(bottomImages[0] == slothEl.src) {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(bottomImages[0] == window.location.origin + '/assets/images/elephant.png') {
+      if(bottomImages[0] == elephantEl.src) {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(bottomImages[0] == window.location.origin + '/assets/images/badger.png') {
+      if(bottomImages[0] == badgerEl.src) {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
@@ -177,13 +180,13 @@ let levelTwo = false;
       if(currentImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(currentImages[0] == window.location.origin + '/assets/images/sloth.png') {
+      if(currentImages[0] == slothEl.src) {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(currentImages[0] == window.location.origin + '/assets/images/elephant.png') {
+      if(currentImages[0] == elephantEl.src) {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(currentImages[0] == window.location.origin + '/assets/images/badger.png') {
+      if(currentImages[0] == badgerEl.src) {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
@@ -193,13 +196,13 @@ let levelTwo = false;
       if(currentImages[6] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
-      if(currentImages[6] == window.location.origin + '/assets/images/sloth.png') {
+      if(currentImages[6] == slothEl.src) {
         money.textContent = Number(money.textContent) + 15;
       }
-      if(currentImages[6] == window.location.origin + '/assets/images/elephant.png') {
+      if(currentImages[6] == elephantEl.src) {
         money.textContent = Number(money.textContent) + 60;
       }
-      if(currentImages[6] == window.location.origin + '/assets/images/badger.png') {
+      if(currentImages[6] == badgerEl.src) {
         money.textContent = Number(money.textContent) + 80;
       }
       correctAudio.play();
