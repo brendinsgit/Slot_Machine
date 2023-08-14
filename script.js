@@ -13,13 +13,15 @@ const correctAudio = document.querySelector('#correct-audio');
 const levelTwoButton = document.querySelector('.level-two-button');
 const levelTwoAudio = document.querySelector('#level-two-audio');
 const levelTwoBox = document.querySelector('.level-two-box');
+const gorillaEl = document.createElement('img');
+gorillaEl.src = './assets/images/gorilla.png';
 let levelOne = true;
 let levelTwo = false;
 
 
 (function () {
     let animals = [
-    window.location.origin + '/assets/images/gorilla.png',
+      gorillaEl.src,
     window.location.origin + '/assets/images/sloth.png',
     window.location.origin + '/assets/images/elephant.png',
     window.location.origin + '/assets/images/badger.png'
@@ -124,7 +126,7 @@ let levelTwo = false;
     let bottomImages = [currentImages[2], currentImages[5], currentImages[8]];
 
     if (topImages[0] === topImages[1] && topImages[0] === topImages[2]) {
-      if(topImages[0] == window.location.origin + '/assets/images/gorilla.png') {
+      if(topImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
       if(topImages[0] == window.location.origin + '/assets/images/sloth.png') {
@@ -140,7 +142,7 @@ let levelTwo = false;
       correctAudio.volume = 0.2;
     } 
     if (centerImages[0] === centerImages[1] && centerImages[0] === centerImages[2]) {
-      if(centerImages[0] == window.location.origin + '/assets/images/gorilla.png') {
+      if(centerImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 250;
       }
       if(centerImages[0] == window.location.origin + '/assets/images/sloth.png') {
@@ -156,7 +158,7 @@ let levelTwo = false;
       correctAudio.volume = 0.2;
     } 
     if (bottomImages[0] === bottomImages[1] && bottomImages[0] === bottomImages[2]) {
-      if(bottomImages[0] == window.location.origin + '/assets/images/gorilla.png') {
+      if(bottomImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
       if(bottomImages[0] == window.location.origin + '/assets/images/sloth.png') {
@@ -172,7 +174,7 @@ let levelTwo = false;
       correctAudio.volume = 0.2;
     }
     if (currentImages[0] === currentImages[4] && currentImages[0] === currentImages[8]) {
-      if(currentImages[0] == window.location.origin + '/assets/images/gorilla.png') {
+      if(currentImages[0] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
       if(currentImages[0] == window.location.origin + '/assets/images/sloth.png') {
@@ -188,7 +190,7 @@ let levelTwo = false;
       correctAudio.volume = 0.2;
     }
     if (currentImages[6] === currentImages[4] && currentImages[6] === currentImages[2]) {
-      if(currentImages[6] == window.location.origin + '/assets/images/gorilla.png') {
+      if(currentImages[6] == gorillaEl.src) {
         money.textContent = Number(money.textContent) + 50;
       }
       if(currentImages[6] == window.location.origin + '/assets/images/sloth.png') {
