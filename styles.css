@@ -5,7 +5,7 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   background-color: #fff;
-  background-image: url(/assets/images/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
+  background-image: url(./assets/images/carl-raw-m3hn2Kn5Bns-unsplash.jpg);
 }
 
 .slot-sound {
@@ -200,7 +200,7 @@ footer>div#goal {
   position: absolute;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/images/banana_background_pixel.jpg);
+  background-image: url(./assets/images/banana_background_pixel.jpg);
   top: 30%;
   right: 29.5%;
   height: 40vmin;
@@ -218,7 +218,7 @@ footer>div#goal {
   position: absolute;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/images/banana_background_pixel.jpg);
+  background-image: url(./assets/images/banana_background_pixel.jpg);
   top: 30%;
   right: 29.5%;
   height: 40vmin;
