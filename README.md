@@ -30,7 +30,7 @@ As a user...
 
 
 ## Wireframes / Screenshots
-![Project01_Wireframe](https://github.com/brendinsgit/Slot_Machine/assets/Project01_Wireframe.png)
+![Project01_Wireframe](https://github.com/brendinsgit/Slot_Machine/blob/gh-pages/assets/images/Project01_Wireframe.png)
 
 
 
